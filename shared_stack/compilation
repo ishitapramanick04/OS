@@ -1,0 +1,7 @@
+compilation: gcc -c mylib.c
+
+                    gcc -c query.c
+
+                    gcc mylib.o query.o
+
+   run:          ./a.out
